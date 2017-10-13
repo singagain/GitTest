@@ -1,0 +1,204 @@
+
+
+
+
+
+
+.contbox {
+    width: 100%;
+    height: 785px;
+    position: relative;
+}
+.contbox_banner {
+	background: url(../img/login/2569699673708683028.jpg) no-repeat center center;
+    width: 100%;
+    height: 785px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.sign_box {
+    width: 326px;
+    height: 484px;
+    background: #fff;
+    position: absolute;
+    top: 125px;
+    left: 50%;
+    z-index: 2;
+    margin-left: 74px;
+    box-shadow: 0 0 26px #fcdfdf;
+    padding: 30px 40px 40px;
+}
+.userlogin_title {
+    margin-bottom: 35px;
+}
+.userlogin_title p {
+    overflow: hidden;
+    font-family: '微软雅黑';
+}
+.userlogin_title a {
+    font-size: 16px;
+    color: #00c8ff;
+    float: right;
+    margin-top: 7px;
+}
+.userlogin_title span {
+    font-size: 24px;
+    color: #000;
+    float: left;
+}
+.userlogin_info {
+    margin-bottom: 15px;
+}
+.u_info_account {
+    margin-bottom: 24px;
+}
+.u_info_name {
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+.u_info_txt {
+    position: relative;
+}
+.u_info_name label {
+    float: left;
+    font-size: 16px;
+    font-family: '微软雅黑';
+    color: #000;
+}
+.u_info_h {
+    height: 56px;
+}
+.u_info_password {
+    margin-bottom: 10px;
+}
+.u_info_txt input {
+    width: 314px;
+    height: 16px;
+    border: 1px #c4c4c4 solid;
+    font-size: 14px;
+    padding: 7px 0;
+    color: #6c6c6c;
+    padding-left: 10px;
+}
+.u_info_code .u_info_txt input {
+    width: 165px;
+    float: left;
+}
+.u_info_code .u_info_txt img {
+    margin: 7px 0 0 21px;
+    float: left;
+    width: 75px;
+    height: 20px;
+}
+.u_info_code .u_info_txt span {
+    float: left;
+    color: #00c8ff;
+    margin: 9px 0 0 11px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.u_info_operate {
+    width: 326px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.auto_login {
+    float: left;
+}
+.forget_password {
+    float: right;
+}
+.auto_login .u_check {
+    height: 14px;
+    cursor: pointer;
+    display: block;
+    padding-left: 18px;
+    background: url(../img/login/sel.png) no-repeat 0 -40px;
+}
+
+.auto_login .u_checked {
+    background-position: 0 -60px;
+    
+}
+.forget_password a {
+    color: #6c6c6c;.auto_login .u_check {
+    height: 14px;
+    cursor: pointer;
+    display: block;
+    padding-left: 18px;
+    background: url("/static/images/ico/sel.png") no-repeat 0 -40px;
+}
+}
+.u_info_btn input {
+    width: 326px;
+    height: 36px;
+    background: #00c8ff;
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+    font-family: '微软雅黑';
+    font-size: 20px;
+    border: 0;
+    letter-spacing: 6px;
+    padding-left: 6px;
+    cursor: pointer;
+}
+.userlogin_other {
+    border-top: 1px #e3e3e3 dotted;
+    padding-top: 20px;
+}
+.ext_connect {
+    margin-top: 20px;
+    margin-left: -20px;
+}
+.userlogin_other p{
+	font-size: 12px;
+}
+.ext_connect li {
+    height: 30px;
+    float: left;
+    margin-left: 20px;
+}
+
+.ext_connect li a {
+    color: #6c6c6c;
+}
+.ext_connect li a {
+    background: url(../img/login/other_autoico.png) no-repeat 0 0;
+    padding-left: 30px;
+    display: block;
+    height: 30px;
+    line-height: 23px;
+}
+.ext_connect .qq a {
+    background-position: 0 0px;
+    font-size: 14px;
+    font-family: Arial;
+}
+.ext_connect .alipay a {
+    background-position: 0 -30px;
+}
+.ext_connect .sina a {
+    background-position: 0 -60px;
+}
+.ext_connect .t360 a {
+    background-position: 0 -90px;
+    font-size: 14px;
+    font-family: Arial;
+}
+.ext_connect .baidu a {
+    background-position: 0 -120px;
+}
+.ext_connect .renren a {
+    width: 47px;
+    background-position: 0 -180px;
+}
+.ext_connect .xunlei a {
+    background-position: 0 -210px;
+}
+.sign_box .focus_sel{
+	box-shadow: 0 0 7px #0DCAFE;
+	border: 1px solid #0DCAFE;
+}

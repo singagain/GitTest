@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link href="css/common.css" rel="stylesheet" type="text/css" />
+		<link href="css/registered.css" rel="stylesheet" type="text/css" />
+		<link href="css/login.css" rel="stylesheet" type="text/css" />
+		<link href="fonts/iconfont.css" rel="stylesheet" type="text/css" />
+		<script src="js/jquery-1.11.1.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+		<script src="js/jquery-ui.min.js"></script>	
+		<script src="js/registered.js"></script>
+		<script src="js/public.js"></script>
+	</head>
+	<body>
+		<div class="top" >
+			<div class="continer">
+				<div class="top_left">
+					<p>欢迎来到知我！这里，用专业呵护美丽。</p>
+					<a href="login.html">请登录</a>
+					<a href="registered.html">快速注册</a>
+				</div>
+				<div class="top_right">
+					<ul>
+						<li class="active_list">
+							<a href="#">微信商城<span class="iconfont icon-down-trangle"></span></a>
+							<ul class="WeChat_shop">
+								<img src="img/index/wechat_ewm1.jpg" />
+							</ul>
+						</li>
+						<li>
+							<a href="#"><span class="iconfont icon-shouji"></span>手机知我</a>
+						</li>
+						<li class="active_list">
+							<a href="#"class="border_right">我的小窝<span class="iconfont icon-down-trangle"></span></a>
+							<ul class="my_alveole">
+								<li><a href="#">我的订单</a></li>
+								<li><a href="#">我的优惠券</a></li>
+								<li><a href="#">我的收藏</a></li>
+								<li><a href="#">我的预定</a></li>
+								<li><a href="#">我的积分</a></li>
+							</ul>
+						</li>
+						<li class="active_list">
+							<a href="#">客户服务<span class="iconfont icon-down-trangle"></span></a>
+							<ul class="client_serve">
+								<li><a href="#">帮助中心</a></li>
+								<li><a href="#">新浪微博</a></li>
+								<li><a href="#">正品承诺</a></li>
+								<li><a href="#">真伪查询</a></li>
+							</ul>
+						</li>
+						</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="header continer">
+					<div class="header_clogo"><a href="#"><img src="img/index/logo.jpg"></a></div>
+					<div class="header_tipinfo"><img src="img/login/tipinfo1.jpg"></div>
+		</div>	
+		
+		
+		<div class="contbox">
+				<div class="contbox_banner">
+											<a class="contbox_bg" style="background:url('http://images.zhiwo.com/product/2015/0724/11885557634631760229.jpg') no-repeat center center;"></a>
+									</div>
+				<div class="sign_box register_box">
+					<div class="userlogin_title">
+						<p><span>注册</span><a href="login.html"><span>已有知我账号？</span>登录</a></p>
+					</div>
+					<div class="userlogin_info">
+						<form class="signup-user-form" id="signup-user-form" autocomplete="off" action="/account/signup" method="post">
+							<input type="hidden" name="redirect" value="http://www.zhiwo.com/">
+							<div class="u_info_h mobile">
+								<p class="u_info_txt"><input id="signup-mobile" class="sign_txt" type="text" name="mobile" placeholder="请输入您的手机号" isvalid="false"></p>
+								<!--<p class="error">手机格式有误，请重新输入</p>-->
+								<p class="error"></p>
+							</div>
+							<div class="u_info_password u_info_h password">
+								<p class="u_info_txt"><input id="signup-password" class="sign_txt" type="password" name="password" placeholder="请输入密码" isvalid="false"></p>
+							<!--	<p class="error">密码长度需6-16位字符</p>-->
+								<p class="error"></p>
+							</div>
+							<div class="u_info_password u_info_h password_confirm">
+								<p class="u_info_txt"><input id="signup-password-confirm" class="sign_txt" type="password" name="password2" placeholder="确定密码" isvalid="false"></p>
+								<!--<p class="error">两次输入的密码不匹配</p>-->
+								<p class="error"></p>
+							</div>
+							<div class="u_info_code u_info_h verifycode">
+								<p class="u_info_txt"><input class="sign_txt" type="text" id="signup-verify-code" name="verify_code" placeholder="请输入验证码" isvalid="false"><img id="verify_code" src="img/login/verifycode.png" alt="验证码"><span id="change_code">换一张</span></p>
+								<p class="error"></p>
+							</div>
+							<div class="u_info_btn">
+								<p><input type="button" id="signup-submit" value="同意协议并注册"></p>
+								<p class="zhiwo_xieyi"><a href="#">《知我网用户协议》</a></p>
+							</div>
+						</form>
+					</div>
+					<div class="userlogin_other">
+						<p>合作网站账号登录</p>
+						<ul class="ext_connect clearfix">
+							<li class="qq"><a href="">QQ</a></li>
+							<li class="alipay"><a href="">支付宝</a></li>
+							<li class="sina"><a href="">新浪微博</a></li>
+							<li class="t360"><a href="">360</a></li>
+							<li class="baidu"><a href="">百度</a></li>
+							<li class="renren"><a href="">人人</a></li>
+							<li class="xunlei"><a href="">迅雷</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		
+		
+		
+		<div class="footer">
+
+			<div class="footer_intro continer clearfix">
+				<dl>
+				<dt>真品保证</dt>
+				<dd><a href="#" target="_blank" rel="nofollow">品牌合作</a></dd>
+				<dd><a href="#" target="_blank" rel="nofollow">严格把关</a></dd>
+				<dd><a href="#" target="_blank" rel="nofollow">百度投资</a></dd>
+				<dd><a href="#" target="_blank" rel="nofollow">全球品牌直供</a></dd>
+			</dl>
+			<dl>
+				<dt>30天包退</dt>
+				<dd><a href="#" target="_blank" rel="nofollow">退换货政策</a></dd>
+				<dd><a href="#" target="_blank" rel="nofollow">办理退换货</a></dd>
+				<dd><a href="#" target="_blank" rel="nofollow">售后服务</a></dd>
+			</dl>
+			<dl>
+				<dt>139元包邮</dt>
+				<dd><a href="#" target="_blank" rel="nofollow">配送政策</a></dd>
+				<dd><a href="#" target="_blank" rel="nofollow">快递查询</a></dd>
+			</dl>
+			<dl>
+				<dt>药妆专柜</dt>
+				<dd><a href="#" target="_blank">肤质判定</a></dd>
+				<dd><a href="#" target="_blank">肌肤问题</a></dd>
+				<dd><a href="#" target="_blank">达人推荐</a></dd>
+				<dd><a href="#" target="_blank">护肤常识</a></dd>
+			</dl>
+			<dl class="footer_intro_mrl">
+				<dt>关于知我</dt>
+				<dd><a href="#" target="_blank" rel="nofollow">知我介绍</a></dd>
+				<dd><a href="#" target="_blank" rel="nofollow">商务合作</a></dd>
+				<dd><a href="#" target="_blank">友情链接</a></dd>
+				<dd><a href="#" target="_blank" rel="nofollow">开放API</a></dd>
+			</dl>
+			<dl class="footer_intro_mrl">
+				<dt>新手指南</dt>
+				<dd><a href="#" target="_blank" rel="nofollow">购物流程</a></dd>
+				<dd><a href="#" target="_blank" rel="nofollow">支付方式</a></dd>
+				<dd><a href="#" target="_blank">化妆品品牌大全</a></dd>
+			</dl>
+			<dl class="footer_intro_mrl">
+				<dt>联系方式</dt>
+				<dd><a id="online_service" href="#" target="_blank" rel="nofollow">在线客服咨询</a></dd>
+				<dd class="contact_method">热线</dd>
+				<dd class="contact_phone">400-630-1018<br>010-65389618</dd>
+			</dl>
+			<dl class="footer_intro_mrl footer_intro_wechat">
+				<dt>知我微信商城</dt>
+				<dd><img src="img/index/wechat_ewm1.jpg" alt="知我微信商城二维码"></dd>
+			</dl>
+		</div>
+		<div class="footer_center">
+			<div class="footer_center_box">
+				<ul>
+					<li class="fcb_invest"><span>百度投资</span></li>
+					<li class="fcb_quality"><span>真品保证</span></li>
+					<li class="fcb_return"><span>30天包退</span></li>
+					<li class="fcb_mail"><span>139元包邮</span></li>
+				</ul>
+			</div>
+		</div>
+        <div class="footer_copyright">
+			<p class="footer_c_text1">© 2015-2019 知我天成科技（北京）股份有限公司 zhiwo.com 保留一切权利。客服热线：400-630-1018</p>
+			<p class="footer_c_text2"><a href="#" target="_blank" rel="nofollow">京ICP备10047008号</a> |<a href="#" target="_blank" rel="nofollow">京ICP证B2-20170630号</a> | 网公安备1101054365号 | 营业执照 </p>
+			<p>
+				<img src="img/index/footer_copy_02.jpg" alt="支付宝特约商家">
+				<img src="img/index/footer_copy_03.jpg" alt="快捷支付">
+				<img src="img/index/footer_copy_05.jpg" alt="网上交易保障中心">
+			</p>
+		</div>
+		</div>
+	</body>
+</html>

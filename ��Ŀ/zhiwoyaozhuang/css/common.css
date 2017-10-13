@@ -1,0 +1,237 @@
+body,ul,li,a,span,h1,dd,dl,dt,p,ol,img{
+	margin: 0;
+	padding: 0;
+}
+.continer{
+	width: 960px;
+	margin: 0 auto;
+}
+img{
+	display: block;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	outline: none;
+	 font-size:12px ;
+}
+img{
+	display: block;
+}
+
+.top{
+	line-height: 30px;
+	font-size:12px ;
+	color: #6c6c6c;
+	background:#F2F2F2 ;
+	border-bottom:1px solid #E5E5E5 ;
+	height: 30px;
+}
+.top_left{
+	width: 390px;
+	float: left;
+}
+.top_left p{
+		width: 216px;
+		float: left;
+}
+.top_left a{
+	color: #6c6c6c;
+	margin-left: 30px;
+	float: left;
+	display: block;
+}
+.top_right{
+	float: right;
+}
+.top_right li{
+	float: left;
+	position: relative;
+}
+.top_right .border_right{
+	border-right:1px solid #C4C4C4;
+}
+.top_right a{
+	color: #6c6c6c;
+	padding:0 12px;
+}
+.top_right a span{
+	margin-left:7px ;
+}
+.top_right .icon-shouji{
+	color: #00C8FF;
+	margin-right: 7px;
+	margin-left:0 ;
+	font-size: 20px;
+}
+.top_right .WeChat_shop,.top_right .my_alveole,.top_right .client_serve{
+	margin-top:-1px;
+	/*height:0px ;*/
+	display: none;
+	overflow: hidden;
+	border:1px solid #E5E5E5;
+	border-top: 0;
+	position: absolute;
+	z-index: 100;
+}
+.top_right li .WeChat_shop img{
+	width: 100%;
+}
+.top_right .my_alveole a{
+	padding: 0;
+
+}
+.top_right .my_alveole li{
+	margin:0 5px;
+	border: 0;
+}
+
+
+
+
+
+.footer {
+    clear: both;
+    width: 100%;
+    background: #fff;
+}
+.footer_intro {
+    margin: 0 auto 35px;
+    padding-top: 34px;
+    padding-left: 16px;
+    overflow: hidden;
+}
+.footer_intro dl {
+    float: left;
+    width: 106px;
+    margin-left: 20px;
+}
+.footer_intro dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.footer_intro dl dd a {
+    color: #6c6c6c;
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+}
+.go_top {
+    font-family:   Arial;
+    color: #fff;
+}
+.footer_intro dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.contact_method {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 6px;
+}
+.contact_phone {
+    color: #00c8ff;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.footer_intro .footer_intro_wechat {
+    width: 103px;
+    float: right;
+}
+.footer_intro .footer_intro_mrl {
+    margin-left: 8px;
+}
+.footer_intro .footer_intro_wechat dt {
+    margin-left: 6px;
+}
+.footer_intro .footer_intro_wechat img {
+    display: block;
+    width: 103px;
+    height: 103px;
+}
+.footer_center {
+    height: 35px;
+    background: #00c8ff;
+}
+.footer_center_box {
+    margin: 0 auto;
+}
+
+.footer_center_box ul {
+    padding-left: 58px;
+    text-align: center;
+    font-size: 12px;
+}
+.footer_center_box li {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    width: 134px;
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+    padding-left: 30px;
+    text-align: left;
+}
+.fcb_invest {
+    background: url(../img/index/assure2.png) no-repeat 0 0;
+}
+.fcb_quality {
+    background: url(../img/index/assure2.png) no-repeat 0 -35px;
+}
+.fcb_return {
+    background: url(../img/index/assure2.png) no-repeat 0 -70px;
+}
+.fcb_mail {
+    background: url(../img/index/assure2.png) no-repeat 0 -105px;
+}
+.footer_copyright {
+    margin: 0 auto;
+    padding: 26px 0 45px;
+}
+.footer_copyright .footer_c_text1 {
+    margin-bottom: 7px;
+}
+.footer_copyright p {
+    text-align: center;
+}
+.footer_copyright .footer_c_text2 {
+    margin-bottom: 20px;
+}
+
+.footer_copyright .footer_c_text2 a {
+    color: #6c6c6c;
+}
+.footer_copyright p img{
+	display: inline;
+}
+
+
+
+.header{
+	overflow:hidden ;
+}
+.header_clogo {
+    float: left;
+    width: 260px;
+    height: 108px;
+}
+.header_clogo a img {
+    display: block;
+    width: 260px;
+    height: 108px;
+}
+.header_tipinfo {
+    float: right;
+    width: 452px;
+    height: 108px;
+}
+.header_tipinfo img {
+    display: block;
+    width: 452px;
+    height: 108px;
+}

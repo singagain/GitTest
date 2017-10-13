@@ -1,0 +1,19 @@
+.userlogin_title a span {
+    font-size: 12px;
+    color: #c4c4c4;
+    margin-top: 6px;
+}
+.error {
+    font-size: 12px;
+    color: #ff643c;
+    margin-top: 3px;
+}
+.register_box .u_info_btn input {
+    letter-spacing: 0px;
+}
+.zhiwo_xieyi {
+    margin-top: 4px;
+}
+.zhiwo_xieyi a {
+    color: #00c8ff;
+}
