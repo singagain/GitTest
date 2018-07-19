@@ -22,16 +22,16 @@ $(function(){
 
 			// alert(this.);
 			//是否是第一次添加cookie
-			var id = this.id;
-			var first = $.cookie("goods") == null ? true : false;
+			var id = this.id;//获取到当前商品的id
+			var first = $.cookie("goods") == null ? true : false;//判断cookie是否为空
 			if(first){
 				//第一次添加  [{id:id,num:2}]
-				$.cookie("goods", '[{id:' + id + ',num:1}]', {
+				$.cookie("goods", '[{id:' + id + ',num:1}]', {//为空直接将商品id，和数量存进去
 					expires: 7
 				});
-			}else{
+			}else{//不为空
 				var str = $.cookie("goods");
-				var arr = eval(str);
+				var arr = eval(str);//使用eval(),将json格式字符串处理成json对象数组
 				var same = false; //代表是否有相同商品
 
 				//遍历所有的对象，判断是否id相同，num++
@@ -51,7 +51,7 @@ $(function(){
 				if(!same){
 					var obj = {id: id, num: 1};
 					arr.push(obj);
-					var cookieStr = JSON.stringify(arr);
+					var cookieStr = JSON.stringify(arr);//数组转对象
 					$.cookie("goods", cookieStr, {
 						expires: 7
 					});
